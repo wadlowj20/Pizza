@@ -46,3 +46,13 @@ p, li {
   font-size: 22px;
   color: #51473b;
 }
+* ---- Advanced ---- */
+/* This tag is a bit advanced for this lesson,  
+   but is needed to wrap the pageContainer 
+   around any sized content that is floated within it. */
+
+.pageContainer:after { 
+  content: " ";
+  display: table;
+  clear: both;
+}
